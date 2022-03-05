@@ -1,0 +1,149 @@
+.Portada {
+    background: url(../fondos/fondodungeon.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.START {
+    padding-top: 5%;
+    padding-left: 0%;
+}
+
+html,
+body {
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    align-items: center;
+    justify-content: center;
+    padding-left: 40%;
+}
+
+.guardian {
+    width: 300px;
+    height: 275px;
+}
+
+
+/*
+    **root elements display block
+*/
+
+html,
+body {
+    display: block;
+}
+
+
+/*
+    ** Body main style
+*/
+
+body {
+    line-height: 1.317101995;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+    background-color: #fff;
+}
+
+.centered-elements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.btnSTART {
+    position: relative;
+    height: 50px;
+    width: 150px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    background-color: #20e2d7;
+    color: #fff;
+    font-size: 18px;
+    overflow: hidden;
+    transition: all 500ms ease;
+    border: 2px solid #20e2d7;
+    margin-bottom: 40px;
+    z-index: 0;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.btnSTART::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    background-color: #20e2d7;
+    transition: all 500ms ease;
+    z-index: -1;
+}
+
+.btnSTART::before {
+    width: 0;
+    height: 100%;
+}
+
+.btnSTART:hover {
+    color: #434343;
+}
+
+.btnSTART:hover::before {
+    width: 100%;
+}
+
+.text {
+    white-space: nowrap;
+    border-right: 3px solid rgb(239, 255, 20);
+    width: 30ch;
+    overflow: hidden;
+    font-size: 1.5rem;
+    color: #fff;
+    animation: texto 3s 1 steps(50), cursor .10s;
+}
+
+@keyframes texto {
+    0% {
+        width: 0
+    }
+}
+
+@keyframes cursor {
+    50% {
+        border-color: transparent
+    }
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column-1 {
+    /*contenido*/
+    width: 100%;
+    float: right;
+}
+
+@media only screen and (max-width: 600px) {
+    /*reglas*/
+    .column-1 {
+        width: 100%;
+    }
+}

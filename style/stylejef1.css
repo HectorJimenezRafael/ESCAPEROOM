@@ -1,0 +1,580 @@
+.FONDOJEFE1 {
+    background: url(../fondos/bowser.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.BTNJEFE1 {
+    text-align: center;
+    padding-top: 20%;
+    color: red;
+}
+
+.Jefe1 {
+    position: relative;
+    height: 50px;
+    width: 150px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    background-color: red;
+    color: #fff;
+    font-size: 18px;
+    overflow: hidden;
+    transition: all 500ms ease;
+    border: 2px solid yellow;
+    margin-bottom: 40px;
+    z-index: 0;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.Jefe1::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    background-color: #20e2d7;
+    transition: all 500ms ease;
+    z-index: -1;
+}
+
+.Jefe1::before {
+    width: 0;
+    height: 100%;
+}
+
+.Jefe1:hover {
+    color: orange;
+}
+
+.Jefe1:hover::before {
+    width: 100%;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.separador {
+    width: 30%;
+    float: left;
+    color: coral;
+    background-color: transparent;
+}
+
+.cuestionario {
+    background-color: bisque;
+}
+
+.iconoB {
+    height: 100px;
+    width: 100px;
+    padding-left: 41%;
+}
+
+.TextoBowser {
+    background-color: bisque;
+}
+
+.FONDOJEFE2 {
+    background: url(../fondos/gemasdef.PNG) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+/* .enviar2 {
+    padding-left: 80%;
+    text-align: center;
+} */
+
+.Jefe2 {
+    position: relative;
+    height: 50px;
+    width: 150px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    background-color: black;
+    color: #fff;
+    font-size: 18px;
+    overflow: hidden;
+    transition: all 500ms ease;
+    border: 2px solid tomato;
+    margin-bottom: 40px;
+    z-index: 0;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.Jefe2::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    background-color: #20e2d7;
+    transition: all 500ms ease;
+    z-index: -1;
+}
+
+.Jefe2::before {
+    width: 0;
+    height: 100%;
+}
+
+.Jefe2:hover {
+    color: royalblue;
+}
+
+.Jefe2:hover::before {
+    width: 100%;
+}
+
+.FONDOJEFE3 {
+    background: url(../fondos/estrellamuerte.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.ladooscuro {
+    color: beige;
+    text-align: center;
+}
+
+.ladooscuro2 {
+    color: red;
+    text-align: center;
+}
+
+.ladooscuro3 {
+    color: blue;
+    text-align: center;
+}
+
+#item1 {
+    width: 100px;
+    height: 100px;
+    padding-left: 44%;
+}
+
+#item2 {
+    width: 100px;
+    height: 100px;
+    padding-left: 36%;
+}
+
+#item3 {
+    width: 100px;
+    height: 100px;
+    padding-left: 10%;
+}
+
+#item4 {
+    width: 100px;
+    height: 100px;
+    padding-left: 74%;
+}
+
+#item5 {
+    width: 100px;
+    height: 100px;
+    padding-left: 90%;
+}
+
+.Anakin {
+    position: relative;
+    height: 50px;
+    width: 150px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    background-color: black;
+    color: #fff;
+    font-size: 18px;
+    overflow: hidden;
+    transition: all 500ms ease;
+    border: 2px solid tomato;
+    margin-bottom: 40px;
+    z-index: 0;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.Anakin::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    background-color: #20e2d7;
+    transition: all 500ms ease;
+    z-index: -1;
+}
+
+.Anakin::before {
+    width: 0;
+    height: 100%;
+}
+
+.Anakin:hover {
+    color: goldenrod;
+}
+
+.Anakin:hover::before {
+    width: 100%;
+}
+
+.FONDOJEFE4 {
+    background: url(../fondos/escalerasjoker.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.separador4 {
+    width: 30%;
+    float: left;
+    color: blueviolet;
+    background-color: transparent;
+    font-size: 30px;
+}
+
+.cuestionario4 {
+    background-color: grey;
+}
+
+.Jefe4 {
+    position: relative;
+    height: 50px;
+    width: 150px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    background-color: purple;
+    color: #fff;
+    font-size: 18px;
+    overflow: hidden;
+    transition: all 500ms ease;
+    border: 2px solid tomato;
+    margin-bottom: 40px;
+    z-index: 0;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.Jefe4::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    background-color: #20e2d7;
+    transition: all 500ms ease;
+    z-index: -1;
+}
+
+.Jefe4::before {
+    width: 0;
+    height: 100%;
+}
+
+.Jefe4:hover {
+    color: blueviolet;
+}
+
+.Jefe4:hover::before {
+    width: 100%;
+}
+
+.Jefe4f {
+    position: relative;
+    height: 50px;
+    width: 150px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    background-color: cyan;
+    color: #fff;
+    font-size: 18px;
+    overflow: hidden;
+    transition: all 500ms ease;
+    border: 2px solid tomato;
+    margin-bottom: 40px;
+    z-index: 0;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.Jefe4f::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    background-color: #20e2d7;
+    transition: all 500ms ease;
+    z-index: -1;
+}
+
+.Jefe4f::before {
+    width: 0;
+    height: 100%;
+}
+
+.Jefe4f:hover {
+    color: orange;
+}
+
+.Jefe4f:hover::before {
+    width: 100%;
+}
+
+.btcarcel {
+    text-align: center;
+}
+
+.carcel {
+    background: url(../fondos/carcel.webp) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.gameover {
+    position: relative;
+    height: 50px;
+    width: 150px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    background-color: cyan;
+    color: #fff;
+    font-size: 18px;
+    overflow: hidden;
+    transition: all 500ms ease;
+    border: 2px solid tomato;
+    margin-bottom: 40px;
+    z-index: 0;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.gameover::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    background-color: #20e2d7;
+    transition: all 500ms ease;
+    z-index: -1;
+}
+
+.gameover::before {
+    width: 0;
+    height: 100%;
+}
+
+.gameover:hover {
+    color: orange;
+}
+
+.gameover:hover::before {
+    width: 100%;
+}
+
+.FONDOJEFE5 {
+    background: url(../fondos/circodef.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.Jefe5 {
+    position: relative;
+    height: 50px;
+    width: 150px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    background-color: yellowgreen;
+    color: #fff;
+    font-size: 18px;
+    overflow: hidden;
+    transition: all 500ms ease;
+    border: 2px solid tomato;
+    margin-bottom: 40px;
+    z-index: 0;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.Jefe5::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    background-color: #20e2d7;
+    transition: all 500ms ease;
+    z-index: -1;
+}
+
+.Jefe5::before {
+    width: 0;
+    height: 100%;
+}
+
+.Jefe5:hover {
+    color: olive;
+}
+
+.Jefe5:hover::before {
+    width: 100%;
+}
+
+.separador5 {
+    width: 30%;
+    float: left;
+    color: blue;
+    background-color: transparent;
+    font-size: 30px;
+}
+
+.cuestionario5 {
+    background-color: cornflowerblue;
+}
+
+#entorno {
+    display: block;
+    margin: 0 auto;
+}
+
+#fondo {
+    opacity: 0.3;
+}
+
+.FONDOJEFE6 {
+    background: url(../fondos/salasaw.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.separador6 {
+    width: 30%;
+    float: left;
+    color: blue;
+    background-color: transparent;
+    font-size: 30px;
+}
+
+.cuestionario6 {
+    background-color: goldenrod;
+}
+
+.Jefe6 {
+    position: relative;
+    height: 50px;
+    width: 150px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    background-color: whitesmoke;
+    color: red;
+    font-size: 18px;
+    overflow: hidden;
+    transition: all 500ms ease;
+    border: 2px solid tomato;
+    margin-bottom: 40px;
+    z-index: 0;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.Jefe6::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    background-color: #20e2d7;
+    transition: all 500ms ease;
+    z-index: -1;
+}
+
+.Jefe6::before {
+    width: 0;
+    height: 100%;
+}
+
+.Jefe6:hover {
+    color: brown;
+}
+
+.Jefe6:hover::before {
+    width: 100%;
+}
+
+.saw {
+    height: 100px;
+    ;
+    width: 100px;
+}
+
+.FONDOPRADERA {
+    background: url(../fondos/pradera.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.volver {
+    text-align: center;
+    color: black;
+    font-size: 36px;
+}
+
+@media only screen and (max-width: 1200px) {
+    /*reglas*/
+    .separador {
+        width: 100%;
+    }
+    .contenedor {
+        width: 100%;
+    }
+    .separador4 {
+        width: 100%;
+    }
+    .contenedor4 {
+        width: 100%;
+    }
+    .separador5 {
+        width: 100%;
+    }
+    .contenedor5 {
+        width: 100%;
+    }
+    .separador6 {
+        width: 100%;
+    }
+    .contenedor6 {
+        width: 100%;
+    }
+}
